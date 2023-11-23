@@ -1,0 +1,809 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+.Navigation_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.Logo {
+    display: flex;
+}
+
+.Logo img {
+    height: 80%;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.Topics {
+    display: flex;
+
+}
+
+.Topics ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.Topics ul li {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Topics ul li:hover {
+    color: red;
+}
+
+.Additional {
+    display: flex;
+}
+
+@media (width <=1000px) {
+    .Navigation_bar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1vh;
+        background-color: antiquewhite;
+    }
+
+
+
+    .Topics ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-size: 2vw;
+        /* margin-left: auto;
+       margin-right: auto; */
+    }
+
+    .Topics ul li:hover {
+       border: 2px solid black;
+       
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Firstvideo {
+
+    position: relative;
+    /* color: red; */
+    
+
+}
+
+
+.Videotext1 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5vw;
+    left: 10%;
+    top: 10%;
+}
+
+
+.Videotext2 {
+    position: absolute;
+    font-size: 2vw;
+    left: 10%;
+    top: 18%;
+}
+
+
+
+
+
+
+
+.AtoZ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    /* text-align: center; */
+}
+
+.AtoZheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+
+
+.AtoZcontent {
+    display: flex;
+    font-size: large;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.AtoZtable {
+    /* border: 2px solid black; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AtoZtable td {
+    border: 2px solid black;
+    font-size: 2vw;
+    padding: 5px 5px;
+    color: red;
+    text-align: center;
+    height: 100px;
+}
+
+
+
+
+
+
+
+.Page0text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    font-size: 2vw;
+}
+
+#secwhite {
+    display: block;
+    margin-left: 10px;
+}
+
+
+.Page0flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Page0flex img {
+    height: 300px;
+    width: 300px;
+    transition-duration: .5s;
+}
+
+.Page0flex img:hover {
+    transform: scale(1.1);
+}
+
+
+.Bayferrox {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    line-height: 1.8;
+}
+
+.Bayferroxheading {
+    display: block;
+    margin: 10px 0px;
+}
+
+.Bayferroxtext {
+    display: block;
+    font-size: large;
+    /* justify-content: center; */
+    /* text-align: center; */
+
+}
+
+
+.Biosecurity {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    line-height: 1.8;
+}
+
+
+.Biosecurityheading {
+    display: block;
+    margin: 10px 0px;
+}
+
+.Biosecuritytext {
+    display: block;
+    font-size: 1vw;
+    /* text-align: center; */
+}
+
+.Events {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    line-height: 1.8;
+
+}
+
+
+.Eventsheading {
+    display: block;
+    margin: 10px 0px;
+}
+
+.Eventstext {
+    display: block;
+    font-size: large;
+    /* text-align: center; */
+}
+
+@media (width <=1000px) {
+    .Page0flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-right: 20%;
+        justify-content: center;
+        margin-top: 2vh;
+
+    }
+
+    .Bayferrox {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .Biosecurity {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+    }
+
+    .Events {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.Employeeimg {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Page1text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px 0px;
+    font-size: 2.5vw;
+}
+
+#secwhite {
+    display: block;
+    margin-left: 10px;
+}
+
+
+.Page1flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 8vh;
+    margin-left: 8vh;
+    margin-right: 5vw;
+}
+
+
+.Page1flex img {
+    height: 300px;
+    width: 300px;
+    transition-duration: .5s;
+}
+
+.Page1flex img:hover {
+
+
+    transform: scale(1.1);
+
+}
+
+
+.Lanxessataglance {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    line-height: 1.8;
+}
+
+.Glanceheading {
+    display: block;
+    margin: 10px 0px;
+}
+
+.Glancetext {
+    display: block;
+    font-size: large;
+}
+
+
+.Investors {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    line-height: 1.8;
+}
+
+
+.Investorsheading {
+    display: block;
+    margin: 10px 0px;
+}
+
+.Investorstext {
+    display: block;
+    font-size: large;
+}
+
+.Media {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    line-height: 1.8;
+
+}
+
+
+.Mediaheading {
+    display: block;
+    margin: 10px 0px;
+}
+
+.Mediatext {
+    display: block;
+    font-size: large;
+}
+
+
+.Sustainability {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    line-height: 1.8;
+
+}
+
+.Sustainabilityheading {
+    display: block;
+    margin: 10px 0px;
+}
+
+.Sustainabilitytext {
+    display: block;
+    font-size: large;
+}
+
+@media (width <=1000px) {
+    .Page1flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .Lanxessataglance {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Investors {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+    }
+
+    .Media {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+    }
+
+    .Sustainability {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+.Page2 {
+    position: relative;
+}
+
+.Page2 img {}
+
+.Page2textheading {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 10%;
+    font-size: 2vw;
+}
+
+.Page2textheading #white {
+    /* margin-right: 15px; */
+}
+
+
+
+
+.Page2textheading #red {
+    color: red;
+    margin-left: 15px;
+}
+
+
+.Page2textcontent {
+    display: block;
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    font-size: 1.5vw;
+    line-height: 2;
+}
+
+.Page2textlink a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.Page2textlink a:link {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px;
+
+}
+
+.Page2textlink a:hover {
+
+    color: black;
+    background-color: white;
+    transition: .5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Contactdetails {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+
+}
+
+.Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.Text {
+    display: block;
+}
+
+.Insidetext {
+    display: block;
+    font-size: 2.5vw;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+
+.Adjacenttotextcontainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8vw;
+}
+
+.Socialmedia {
+    display: flex;
+    flex-direction: column;
+}
+
+.Socialmedia h1 {
+    color: rgba(208, 195, 195, 0.968);
+}
+
+.Followus {
+    margin-bottom: 15px;
+}
+
+.Handles {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Handles ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: azure;
+    list-style-type: none;
+}
+
+.Handles ul li {
+    padding: 8px 8px;
+}
+
+.Handles li img {
+    height: 25px;
+    width: 25px;
+}
+
+.Links {
+    margin-left: 100px;
+}
+
+.Quicklinks {
+    margin-bottom: 15px;
+    
+}
+
+.Externallinks {
+    margin-bottom: 30px;
+}
+
+.Externallinks li {
+    padding-top: 15px;
+    list-style-type: none;
+
+}
+
+.Externallinks li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.Logofooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Leftfooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.Leftfooterimg {
+    margin-left: 10%;
+}
+
+.Lanxesstext {
+    display: block;
+    margin-top: 25px;
+    font-size: medium;
+}
+
+.Middlefooter ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Middlefooter ul li {
+    list-style-type: none;
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1.4vw;
+}
+
+.first {
+    border-right: 2px solid grey;
+}
+
+.Rightfooter {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+
+}
+
+.Rightfooterflag {
+    display: block;
+    margin-right: 20px;
+}
+
+
+.Rightfootertext {
+    display: block;
+    color: grey;
+    font-size: 1.4vw;
+    margin-right: 25px;
+}
+
+
+@media (width <=800px) {
+    .Bottom {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .Text {
+        display: flex;
+        /* position: absolute; */
+        /* top: 0%;
+        right: 0%; */
+    }
+
+
+    .Insidetext {
+        display: flex;
+        flex-direction: row;
+        font-size: 3vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+        position: relative;
+        top: 0%;
+        right: 0%;
+    }
+
+    .Adjacenttotextcontainer {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        /* top: 5%;
+        left: 5%; */
+
+    }
+
+    .Followus{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+    }
+
+    .Quicklinks{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+    }
+
+
+    .Handles ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: azure;
+        list-style-type: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    
+}
+
+@media (width <= 1200px){
+    .Logofooter{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.8vw;
+    }
+
+    .Rightfooter{
+        margin-left: 10%;
+    }
+
+    .Middlefooter{
+        margin-left: 8%;
+    }
+}
